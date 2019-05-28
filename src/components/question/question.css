@@ -1,0 +1,48 @@
+.question-head {
+  width: 646px;
+  height: 48px;
+  background: #ffffff;
+}
+
+.question_title p {
+  margin-left: 15px;
+  line-height: 50px;
+}
+
+.question {
+  
+}
+
+.question_header {
+  background: #ffffff;
+}
+
+.question_type {
+  width: 80px;
+  height: 30px;
+  color: #9f9f9f;
+  font-weight: bold;
+  float: left;
+}
+
+.question_type_name {
+  width: 400px;
+  height: 30px;
+  
+}
+
+.question_container {
+  background: #ffffff;
+}
+
+.question_level {
+  color: #02c7f2;
+  font-size: 24px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.question_url {
+
+}
