@@ -1,20 +1,28 @@
-.question-head {
+.questions_container {
+  float: left;
   width: 646px;
-  height: 48px;
+  border-right: 2px solid #e0e0e0;
+}
+
+.question_title {
+  height: 30px;
   background: #ffffff;
+  margin-bottom: 3px;
 }
 
 .question_title p {
-  margin-left: 15px;
-  line-height: 50px;
-}
-
-.question {
-  
+  font-family: NanumSquareOTFB;
+  margin: 0 0 0 12px;
+  line-height: 28px;
+  color: #4c4c4c;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .question_header {
+  margin-bottom: 1px;
   background: #ffffff;
+  height: 48px;
 }
 
 .question_type {
@@ -23,26 +31,80 @@
   color: #9f9f9f;
   font-weight: bold;
   float: left;
+  margin: 15px 0px 0px 28px;
+  font-size: 14px;
+  font-family: Roboto;
 }
 
 .question_type_name {
-  width: 400px;
+  width: 300px;
   height: 30px;
-  
+  float: left;
+  font-size: 14px;
+  margin: 15px 0px 0px 0px;
 }
 
-.question_container {
+.similar_chk_btn {
+  float: left;
+  margin: 5px 0px 0px 60px;
+  font-size: 14px;
+  border: 1px solid #e8e8e8;
+  width: 80px;
+  height: 36px;
+  text-align: center;
+  line-height: 33px;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #00c7f3;
+  cursor: pointer;
+}
+
+.similar_chk_btn.active {
+  float: left;
+  margin: 5px 0px 0px 60px;
+  font-size: 14px;
+  border: 1px solid #e8e8e8;
+  width: 80px;
+  height: 36px;
+  text-align: center;
+  line-height: 33px;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  background: #00c7f3;
+}
+
+.delete_btn {
+  float: left;
+  margin: 5px 0px 0px 10px;
+  font-size: 14px;
+  border: 1px solid #e8e8e8;
+  color: #00c7f3;
+  font-weight: bold;
+  width: 56px;
+  height: 36px;
+  text-align: center;
+  line-height: 33px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.question_body {
   background: #ffffff;
+  margin-top: 1px;
+  margin-bottom: 8px;
 }
 
 .question_level {
   color: #02c7f2;
   font-size: 24px;
   float: left;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px 40px 0px 40px;
+  font-weight: bold;
 }
 
 .question_url {
-
+  margin-top: 12px;
+  margin-bottom: 20px;
 }

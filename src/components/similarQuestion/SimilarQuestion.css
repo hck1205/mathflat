@@ -1,0 +1,79 @@
+.similarQuestions_container {
+  float: left;
+  width: 646px;
+  margin-left: 10px;
+}
+
+.empty_question_container {
+  background: #ffffff;
+  width: 647px;
+  height: 673px;
+  text-align: center;
+  font-size: 14px;
+  margin-top:5px;
+  color: #9f9f9f;
+}
+
+.empty_similar_button {
+  border: 1px solid #e8e8e8;
+  color: #00c7f3;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 305px;
+  font-weight: bold;
+  font-family: "SamsungKorean_v2.0";
+  margin-right: 6px;
+}
+
+.empty_text {
+  display: inline;
+}
+
+.similar_question_title {
+  height: 30px;
+  background: #ffffff;
+  margin-bottom: 3px;
+}
+
+.similar_question_title p {
+  font-family: NanumSquareOTFB;
+  margin: 0 auto 0 auto;
+  line-height: 28px;
+  color: #4c4c4c;
+  font-size: 14px;
+  width: 108px;
+  color: #4c4c4c;
+  font-weight: bold;
+}
+
+.similar_btn {
+  float: left;
+  margin: 5px 0px 0px 80px;
+  font-size: 14px;
+  border: 1px solid #e8e8e8;
+  width: 56px;
+  height: 36px;
+  text-align: center;
+  line-height: 33px;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #00c7f3;
+  cursor: pointer;
+}
+
+.exchange_btn {
+  float: left;
+  margin: 5px 0px 0px 10px;
+  font-size: 14px;
+  border: 1px solid #e8e8e8;
+  width: 56px;
+  height: 36px;
+  text-align: center;
+  line-height: 33px;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #00c7f3;
+  cursor: pointer;
+}
