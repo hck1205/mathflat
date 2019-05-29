@@ -19,6 +19,7 @@ class SimilarQuestion extends Component {
     
     let newSimilarQuestionArr = [...this.props.similarQuestions];
     let newQuestionArr = [...this.props.questions];
+    this.props.similarQuestions[index] = questionToExchange
 
     newSimilarQuestionArr[index] = questionToExchange
     newQuestionArr[activeQuestionNo-1] = similarQuestionToExchange

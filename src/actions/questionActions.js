@@ -15,10 +15,10 @@ export const fetchQuestions = (list = []) => dispatch => {
       })
     })
   } else {
-    return {
+    dispatch ({
       type: FETCH_QUESTIONS,
       payload: list
-    }
+    })
   }
 }
 
@@ -31,10 +31,10 @@ export const fetchSimilarQuestions = (list = []) => dispatch => {
       })
     })
   } else {
-    return {
+    dispatch ({
       type: FETCH_SIMILAR_QUESTIONS,
       payload: list
-    }
+    })
   }
 }
 
